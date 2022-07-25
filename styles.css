@@ -1,0 +1,36 @@
+body {
+    background: rgba(233, 238, 240, 0.973);
+    font: normal 14pt  Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    font-style: inherit;
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    color:rgb(31, 28, 28)
+}
+
+
+header {
+    color: rgb(241, 236, 236);
+    text-align: center;
+
+}
+.educacao {
+    background-color: rgb(18, 123, 192);
+    color: aliceblue;
+    padding: 8px;
+    border-radius: 4px;
+   
+   align-items: center;
+    justify-content: center;
+}
+
+section { 
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.459);
+}
