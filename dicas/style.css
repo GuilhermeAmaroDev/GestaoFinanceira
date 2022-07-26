@@ -1,13 +1,19 @@
-
 body {
-    width: 100%;
-    min-height: 100vh;
-    background-color: rgb(243, 243, 243);
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-      
+    border: 0;
+   
+    outline: 0;
+    font-size: 1.2em;
+    background: transparent;
+    color: #797979;
+    position: relative;
+    font-family: 'open_sansregular';
+    max-width: 550px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.459);
 }
 .casalidosos  {
     display: flex;
@@ -17,14 +23,30 @@ body {
 
 h1 {
     color:rgb(0, 0, 0);
-
+    font-family: 'open_sansregular';
 }
 .retornar {
-    background-color: rgb(14, 147, 236);
-    color: aliceblue;
-    padding: 8px;
-    border-radius: 4px;
+    display:inline;
+    width:80px;
+    padding: 0.8em 0.6em;
+    border:2px #5d6768 solid;
+    border-radius:10px; 
+    color: #222424;
+    cursor: pointer;
+    transition: all 0.3s;
+    max-width: 550px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
+.retornar:hover {
+    background: #828282;
+    color: #ffffff;
+    border:2px #828282 solid;
+  }
 
 
 header {

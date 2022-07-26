@@ -1,36 +1,78 @@
 body {
-    background: rgba(233, 238, 240, 0.973);
-    font: normal 14pt  Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
-    font-style: inherit;
-    padding: 0;
-    margin: 0;
-}
-h1 {
-    color:rgb(31, 28, 28)
-}
-
-
-header {
-    color: rgb(241, 236, 236);
-    text-align: center;
-
-}
-.educacao {
-    background-color: rgb(18, 123, 192);
-    color: aliceblue;
-    padding: 8px;
-    border-radius: 4px;
-   
-   align-items: center;
-    justify-content: center;
-}
-
-section { 
-    background: white;
+    border: 0;
+    outline: 0;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2em;
+    background: transparent;
+    color: #797979;
+    position: relative;
+    font-family: 'open_sansregular';
+    max-width: 992px;
+    margin: 0 auto;
     border-radius: 10px;
     padding: 15px;
     width: 500px;
     margin: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.459);
+    border:1px #5d6768 solid;
+    border-radius:10px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
+h1 {
+    color:rgb(31, 28, 28);
+    font-family: 'open_sansregular';
+}
+
+header {
+    color: rgb(241, 236, 236);
+    text-align: center;
+   
+}
+.educacao {
+    display:inline;
+    width:80px;
+    padding: 0.8em 0.6em;
+    border:2px #5d6768 solid;
+    border-radius:10px; 
+    color: #222424;
+    cursor: pointer;
+    transition: all 0.3s;
+    max-width: 550px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn {
+    width:80px;
+    padding: 0.8em 0.6em;
+    border:2px #5d6768 solid;
+    border-radius:10px; 
+    color: #222424;
+    cursor: pointer;
+    transition: all 0.3s;
+    max-width: 550px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: block;
+    height: 50px;
+    font-family: 'open_sansregular';
+    font-size: medium;
+  }
+  .btn:hover{
+    background: #828282;
+    color: #ffffff;
+    border:2px #828282 solid;
+  }
+.educacao:hover {
+    background: #828282;
+    color: #ffffff;
+    border:2px #828282 solid;
+    justify-content: center;
+  }    
