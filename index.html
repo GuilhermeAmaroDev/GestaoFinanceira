@@ -8,31 +8,31 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="principal">
     <header>
-        <h1>Cálculo financeiro do mês</h1>
-      
-    </header>
-    <section>
-    <div id="dados">
-        <p>Salário: <input type="number" name="salário" id="txt1"></p> 
-        <p>Contas:   <input type="number" name="contas" id="txt2"> </p> 
-       <p>Semanas do Mês: <input type="number" name="semanas" id="txt3"> </p>  
-        <p><input type="button" value="Calcular" onclick='calculaSalario()'> </p>    
-    </div>
+     
+        <div class="titulo"><h1>Cálculo financeiro do mês</h1></div>   
+    <div id="dados" class="data">
+        <p>Salário: <input type="number" name="salário" id="txt1" placeholder="Digite apenas números"> </p> 
+        <p>Contas:   <input type="number" name="contas" id="txt2" placeholder="Digite apenas números"> </p> 
+       <p>Semanas do Mês: <input type="number" name="semanas" id="txt3" placeholder="Digite apenas números"> </p>  
+      <p><input type="button" class="btn" value="Calcular" onclick='calculaSalario()'> </p>    
+     </div>
+    
+</header>
     <div id = "res">
 
         Lembre-se de guardar algo na poupança...
     </div>
-    </section>
+   
+<div>
     <nav>
-        <ul>
-           
-            <li>
-                <a href="dicas/dicas.html" class="educacao">Dicas de Educação Financeira</a>
-            </li>
-        </ul>
-    </nav>
-
+        <a href="dicas/dicas.html" class="educacao">Dicas de Educação Financeira</a>
+        <a href="semana/index.html" class="semana">Controle Semanal</a>
+</nav>
+</div>
+    
+</div>
     <script src="script.js"></script>
 </body>
 </html>

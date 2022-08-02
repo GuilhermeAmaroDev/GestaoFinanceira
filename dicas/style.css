@@ -2,26 +2,40 @@ body {
     border: 0;
    
     outline: 0;
-    font-size: 1.2em;
+    font-size: 1em;
     background: transparent;
-    color: #797979;
+    color:rgb(0, 0, 0);
     position: relative;
     font-family: 'open_sansregular';
-    max-width: 550px;
+    background: rgb(137,228,219);
+    background: linear-gradient(90deg, rgba(137,228,219,1) 35%, rgba(0,212,255,1) 100%);
+}
+.texto {
+    background-color:#f3f6f6;
+    border:1px #5d6768 solid; 
+    border-radius:10px; 
     margin: 0 auto;
     border-radius: 10px;
     padding: 15px;
-    width: 500px;
+   width: 500px; 
     margin: auto;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.459);
+   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.459);
+   max-width: 992px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    align-items: center; 
+    justify-content:space-between; 
+    border: 0; 
+    outline: 0; 
+    font-size: 1em;
 }
 .casalidosos  {
     display: flex;
     align-items: center;
     justify-content: center;   
 }
-
-h1 {
+.titulo {
     color:rgb(0, 0, 0);
     font-family: 'open_sansregular';
 }
@@ -40,16 +54,30 @@ h1 {
     line-height: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
+    background-color: aliceblue;
 }
 
 .retornar:hover {
-    background: #828282;
+    background:  #2faaaa;
     color: #ffffff;
     border:2px #828282 solid;
   }
 
+/* media queries */
 
-header {
-    color: rgb(34, 31, 31);
-    text-align: center;
-}
+
+@media(max-width: 1024px){
+    .principal{
+        width: 50%;
+    }
+  }
+  @media(max-width: 650px){
+    .body{
+        background-color: white;
+    }
+    .texto{
+        border:1px solid transparent;
+        width: 90%;
+       
+    }
+  }

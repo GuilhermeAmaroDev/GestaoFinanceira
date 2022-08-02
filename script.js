@@ -1,4 +1,6 @@
 
+
+
 function calculaSalario (){
     let salario = document.getElementById('txt1')
     let salario2 = Number(salario.value)
@@ -34,4 +36,5 @@ function calculaSalario (){
        
     }
 }
+
 

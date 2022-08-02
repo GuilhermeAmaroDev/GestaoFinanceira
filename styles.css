@@ -1,36 +1,67 @@
 body {
-    border: 0;
-    outline: 0;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 1.2em;
-    background: transparent;
-    color: #797979;
-    position: relative;
-    font-family: 'open_sansregular';
-    max-width: 992px;
-    margin: 0 auto;
-    border-radius: 10px;
-    padding: 15px;
-    width: 500px;
-    margin: auto;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.459);
-    border:1px #5d6768 solid;
-    border-radius:10px; 
-    margin-top: 20px;
-    margin-bottom: 20px;
+  border: 0; 
+  outline: 0; 
+  align-items: center; 
+  justify-content: space-between; 
+  color:rgb(0, 0, 0); 
+  font-family: 'open_sansregular';
+  background: rgb(137,228,219);
+  background: linear-gradient(90deg, rgba(137,228,219,1) 35%, rgba(0,212,255,1) 100%);
+  display: block;
+  margin: 8px;
 }
 
-h1 {
+.principal {
+  background-color:#f3f6f6;
+  border:1px #5d6768 solid; 
+  border-radius:10px; 
+  border-radius: 10px;
+  padding: 15px;
+ width: 400px; 
+  margin: 0 auto;
+ box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.459);
+ max-width: 992px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  align-items: center; 
+ justify-content: space-between; 
+  border: 0; 
+  outline: 0; 
+  font-size: 1em;
+  text-align: center;
+ 
+  
+}
+
+ #dados {
+  border-radius:10px; 
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 70px;
+  max-height: 400px;
+  justify-content: center;
+  display: grid;
+  place-items: center;
+     
+}
+
+
+#res {
+  position: relative;
+  align-items: center; 
+  justify-content:center; 
+  margin-top: 10px;
+  margin-bottom: 30px;
+} 
+.titulo {
     color:rgb(31, 28, 28);
     font-family: 'open_sansregular';
 }
 
-header {
-    color: rgb(241, 236, 236);
-    text-align: center;
-   
-}
+
 .educacao {
     display:inline;
     width:80px;
@@ -46,9 +77,10 @@ header {
     line-height: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
+    background-color: #ffffff;
 }
 .btn {
-    width:80px;
+  width:80px;
     padding: 0.8em 0.6em;
     border:2px #5d6768 solid;
     border-radius:10px; 
@@ -60,19 +92,64 @@ header {
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
-    display: block;
     height: 50px;
     font-family: 'open_sansregular';
     font-size: medium;
+    
   }
+ 
   .btn:hover{
-    background: #828282;
+    background: #2faaaa;
     color: #ffffff;
     border:2px #828282 solid;
   }
 .educacao:hover {
-    background: #828282;
+    background:#2faaaa;
     color: #ffffff;
     border:2px #828282 solid;
     justify-content: center;
   }    
+
+  .semana {
+    display:inline;
+    width:80px;
+    padding: 0.8em 0.6em;
+    border:2px #5d6768 solid;
+    border-radius:10px; 
+    color: #222424;
+    cursor: pointer;
+    transition: all 0.3s;
+    max-width: 550px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+  }
+  .semana:hover{
+    
+      background:#2faaaa;
+      color: #ffffff;
+      border:2px #828282 solid;
+      justify-content: center;
+  }
+      
+  /* media queries */
+
+@media(max-width: 1024px){
+  .principal{
+      width: 70%;
+  }
+}
+@media(max-width: 650px){
+  .body{
+      background-color: white;
+
+  }
+  #dados{
+      border:1px solid transparent;
+      width: 100%;
+     
+  }
+}
